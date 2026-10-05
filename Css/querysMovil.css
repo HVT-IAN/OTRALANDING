@@ -1,0 +1,226 @@
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+        overscroll-behavior: none;
+    }
+
+    .FuenteTitulos {
+        font-size: 30px;
+        margin: 30px;
+        margin-bottom: -14px;
+    }
+
+
+    .subtituloTitulo {
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    #menuOpciones ul {
+        font-size: 24px;
+        margin-top: 9%;
+        margin-left: -20px;
+    }
+
+    .contenedorProyectos {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 25px;
+    }
+
+    .listaProyectos {
+        margin-left: -15px;
+    }
+
+    .listaProyectos button {
+        font-size: 14px;
+    }
+
+
+    .proyectosDetalles h2 {
+        font-size: 18px;
+    }
+
+    .contenedorProyectos .proyectosDetalles {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin: 40px;
+    }
+
+    .contenedorProyectos .proyectosDetalles>* {
+        margin: 0;
+    }
+
+    .contenedorProyectos .proyectosDetalles #detalle-titulo {
+        order: 1;
+    }
+
+    .contenedorProyectos .proyectosDetalles #detalle-fecha {
+        order: 2;
+    }
+
+    .contenedorProyectos .proyectosDetalles #detalle-descripcion {
+        order: 3;
+    }
+
+    .contenedorProyectos .proyectosDetalles #detalle-imagen {
+        order: 4;
+        max-width: 180px;
+        margin-top: 10px;
+    }
+
+    .contenedor-informacion {
+        max-width: 100%;
+        max-height: none;
+        margin-left: var(--insetMovil);
+        text-align: justify;
+    }
+
+    .contenedor-informacion img {
+        max-width: 150px;
+        max-height: 150px;
+        margin-top: 18px;
+    }
+
+    .proyectosDetalles p {
+        max-width: 100%;
+        font-size: 12px;
+    }
+
+    .fuenteTituloSeccion {
+        font-size: 40px;
+        left: var(--margenMovil);
+        right: auto;
+        top: auto;
+        bottom: 10px;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .fuenteTituloSeccion2 {
+        font-size: 40px;
+        right: 90%;
+        top: auto;
+        bottom: 10%;
+        pointer-events: none;
+    }
+
+    .margenIzquierdo {
+        top: var(--margenMovil);
+        bottom: var(--margenMovil);
+        left: 0;
+        width: var(--margenMovil);
+    }
+
+    .margenDerecho {
+        top: var(--margenMovil);
+        bottom: var(--margenMovil);
+        right: 0;
+        width: var(--margenMovil);
+    }
+
+    .margenSuperior {
+        left: var(--margenMovil);
+        right: var(--margenMovil);
+        top: 0;
+        height: var(--margenMovil);
+    }
+
+    .margenInferior {
+        left: var(--margenMovil);
+        right: var(--margenMovil);
+        bottom: 0;
+        height: var(--margenMovil);
+    }
+
+    .iconosContacto {
+        top: var(--insetMovil);
+        left: auto;
+        right: var(--insetMovil);
+        gap: 5px;
+    }
+
+    .iconosContacto img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .lineaHorizontal,
+    .leyendaHorizontal {
+        display: none;
+    }
+
+    .gridOndas {
+        grid-template-columns: repeat(16, 1fr);
+        gap: 14px;
+        padding: 20px;
+    }
+
+    .contenedor-informacion {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .listaProyectos {
+        margin-left: var(--insetMovil);
+    }
+
+    .listaProyectos button {
+        font-size: 16px;
+    }
+
+    .contenedor-informacion img {
+        max-width: 120px;
+        max-height: 120px;
+        margin-top: 12px;
+    }
+
+    .tituloTecnologias {
+        margin-top: 12px;
+    }
+
+    .contenedor-informacion .listaTecnologias {
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+
+    .cabecera {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .cabecera.visible {
+        min-height: 100vh;
+    }
+
+    .cabecera:not(.visible) .subtituloTitulo {
+        display: none;
+    }
+
+    .cabecera:not(.visible) .FuenteTitulos {
+        position: fixed;
+        top: 25px;
+        left: 30px;
+        font-size: 20px;
+        z-index: 5;
+    }
+
+    .fuenteSecundaria {
+        margin-top: 50px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: lighter;
+        color: rgb(0, 0, 0);
+    }
+
+    .SeccionInformacion {
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: lighter;
+        color: rgb(0, 0, 0);
+        padding: 0 var(--aire);
+    }
+}

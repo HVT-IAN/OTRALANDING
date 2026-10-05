@@ -1,0 +1,7 @@
+:root {
+    --margen: 40px;
+    --margenMovil: 10px;
+    --inset: calc(var(--margen) + 2px);
+    --insetMovil: calc(var(--margenMovil) + 2px);
+    --colorMargen: transparent;
+}
